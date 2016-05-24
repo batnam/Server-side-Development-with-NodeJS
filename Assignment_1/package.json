@@ -1,0 +1,13 @@
+{
+	"dependencies": {
+		"body-parser": "1.15.1",
+		"express": "4.13.4",
+		"morgan": "1.7.0",
+		"mocha": "2.4.5",
+        "superagent": "1.8.3",
+		"sync": "0.2.5"
+	},
+	"scripts": {
+        "test": "mocha test.js"
+    }
+}
