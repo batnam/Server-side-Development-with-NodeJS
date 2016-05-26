@@ -1,0 +1,10 @@
+{
+	"dependencies": {
+		"mongoose": "4.4.16",
+		"mocha": "2.4.5",
+		"mongoose-currency": "0.2.0"
+	},
+	"scripts": {
+        "test": "mocha test.js"
+    }
+}
