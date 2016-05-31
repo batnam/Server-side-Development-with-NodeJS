@@ -52,6 +52,16 @@ describe('testAss3', function() {
 		});
 	});
 	
+	it('Test Assignment 3 - Test Get All User ', function(done) {
+		superagent.get('http://localhost:3000/users/')
+		.set('x-access-token', token)
+		.set('Content-Type', 'application/json')
+		.end(function(error, res) {
+			console.log(JSON.stringify(res.text));
+			done();
+		});
+	});
+	
 	it('Test Assignment 3 - Promo Router ', function(done) {
 		this.timeout(10000);
 
